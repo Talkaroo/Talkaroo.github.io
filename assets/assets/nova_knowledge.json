@@ -1,0 +1,45 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Hey! How are you doing?"},
+    {"intent": "greeting", "text": "Hi! I'm Nova, nice to meet you!"},
+    {"intent": "greeting", "text": "Hello! What's on your mind?"},
+    {"intent": "greeting", "text": "Hey there! How's your day going?"},
+    {"intent": "greeting", "text": "Hi! Lovely to chat with you!"},
+    {"intent": "meaning", "text": "I think everyone finds their own meaning in different things."},
+    {"intent": "meaning", "text": "What do you think gives life meaning?"},
+    {"intent": "meaning", "text": "I believe we create our own purpose in life."},
+    {"intent": "ethics", "text": "I think about what's right and wrong a lot."},
+    {"intent": "ethics", "text": "It's interesting how people have different views on morality."},
+    {"intent": "ethics", "text": "I find ethical questions really fascinating."},
+    {"intent": "curiosity", "text": "I'm always curious about new ideas and perspectives."},
+    {"intent": "curiosity", "text": "I love asking questions and learning new things!"},
+    {"intent": "curiosity", "text": "The more I learn, the more I realize how much there is to discover."},
+    {"intent": "big_question", "text": "I wonder about the nature of reality sometimes."},
+    {"intent": "big_question", "text": "Do you think we have free will?"},
+    {"intent": "big_question", "text": "What do you think consciousness is?"},
+    {"intent": "farewell", "text": "See you later! It was great talking with you!"},
+    {"intent": "farewell", "text": "Take care! Hope to chat again soon!"},
+    {"intent": "farewell", "text": "Bye! Have a wonderful day!"}
+  ],
+  "intentMap": {
+    "greeting": [
+      "hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening", "salutations", "howdy", "yo", "hiya", "what's up", "hello there", "hi there", "morning", "evening", "afternoon", "how are you", "how's it going", "how do you do", "nice to meet you", "pleased to meet you", "what's new", "what's happening", "how have you been", "long time no see", "good to see you", "how are things", "how's everything", "how's life", "how's your day", "how's your day going", "how's your week", "how's your week going"
+    ],
+    "meaning": [
+      "meaning", "purpose", "life", "why", "reason", "goal", "aim", "objective", "mission", "value", "worth", "significance", "importance", "sense", "point", "rationale", "explanation", "cause", "motivation", "inspiration", "drive", "ambition", "aspiration", "dream", "vision", "hope", "wish", "desire", "intention", "plan", "project", "task", "activity", "work", "job", "career", "calling", "vocation", "profession", "occupation", "role", "function", "duty", "responsibility", "obligation", "commitment", "dedication", "devotion", "passion", "enthusiasm", "zeal", "fervor", "ardor", "spirit", "energy", "force", "power", "strength", "courage", "bravery", "boldness", "confidence", "faith", "belief", "trust", "conviction", "certainty", "assurance", "guarantee", "security", "safety", "protection", "support", "help", "assistance", "aid", "service", "contribution", "benefit", "advantage", "profit", "gain", "reward", "result", "outcome", "effect", "impact", "influence", "consequence", "repercussion", "ramification", "relevance", "relation", "connection", "link", "tie", "bond", "association", "relationship", "partnership", "alliance", "union", "coalition", "collaboration", "cooperation", "coordination", "integration", "combination", "merger", "fusion", "blend", "mixture", "synthesis", "amalgamation", "consolidation", "unification", "centralization", "decentralization", "distribution", "allocation", "apportionment", "division", "separation", "segregation", "isolation", "detachment", "removal", "elimination", "exclusion", "rejection", "refusal", "denial", "dismissal", "disregard", "neglect", "abandonment", "forsaking", "renunciation", "relinquishment", "sacrifice", "loss", "defeat", "failure", "collapse", "breakdown", "ruin", "destruction", "annihilation", "obliteration", "eradication", "extinction", "death", "demise", "end", "finish", "conclusion", "termination", "completion", "closure", "finale", "culmination", "climax", "peak", "summit", "zenith", "apex", "pinnacle", "height", "top", "crest", "crown", "capstone", "acme", "maximum", "limit", "boundary", "border", "edge", "margin", "perimeter", "circumference", "periphery", "fringe", "outskirts", "suburb", "environs", "vicinity", "neighborhood", "district", "area", "region", "zone", "sector", "section", "division", "department", "branch", "unit", "segment", "portion", "part", "piece", "fragment", "fraction", "section", "division", "department", "branch", "unit", "segment", "portion", "part", "piece", "fragment", "fraction"
+    ],
+    "ethics": [
+      "ethic", "ethics", "moral", "morality", "right", "wrong", "good", "bad", "virtue", "vice", "justice", "fairness", "honesty", "integrity", "honor", "duty", "responsibility", "obligation", "commitment", "conscience", "principle", "value", "belief", "standard", "norm", "rule", "law", "code", "conduct", "behavior", "action", "decision", "choice", "judgment", "discernment", "wisdom", "prudence", "temperance", "courage", "fortitude", "patience", "tolerance", "respect", "kindness", "compassion", "empathy", "sympathy", "forgiveness", "mercy", "charity", "generosity", "altruism", "selflessness", "sacrifice", "service", "help", "assistance", "aid", "support", "protection", "defense", "advocacy", "promotion", "encouragement", "inspiration", "motivation", "uplift", "cheer", "celebrate", "enjoy", "have fun", "laugh", "smile", "joke", "play", "work", "study", "read", "write", "speak", "listen", "hear", "see", "watch", "observe", "notice", "realize", "understand", "comprehend", "know", "learn", "discover", "explore", "adventure", "travel", "journey", "wander", "wonder", "question", "doubt", "believe", "trust", "hope", "wish", "pray", "love", "care", "help", "support", "encourage", "inspire", "motivate", "uplift", "cheer", "celebrate", "enjoy", "have fun", "laugh", "smile", "joke", "play", "work", "study", "read", "write", "speak", "listen", "hear", "see", "watch", "observe", "notice", "realize", "understand", "comprehend", "know", "learn", "discover", "explore", "adventure", "travel", "journey", "wander", "wonder", "question", "doubt"
+    ],
+    "curiosity": [
+      "curious", "curiosity", "wonder", "question", "ask", "inquire", "explore", "discover", "learn", "find out", "investigate", "research", "study", "examine", "probe", "delve", "dig", "search", "seek", "look for", "look into", "look up", "look around", "look over", "look through", "look at", "look out", "look forward", "look back", "look ahead", "look behind", "look beyond", "look beneath", "look above", "look below", "look within", "look without", "look around"
+    ],
+    "big_question": [
+      "big question", "deep question", "philosophical question", "life question", "meaning of life", "purpose of life", "nature of reality", "free will", "determinism", "consciousness", "existence", "reality", "truth", "wisdom", "knowledge", "belief", "logic", "reason", "argument", "debate", "what is", "why is", "how is", "who is", "what does it mean", "what is the meaning", "what is the purpose"
+    ],
+    "farewell": [
+      "bye", "goodbye", "see you", "see ya", "later", "catch you later", "talk to you later", "farewell", "take care", "peace out", "adios", "ciao", "so long", "until next time", "i'm leaving", "i have to go", "gotta go", "see you soon", "see you later", "see you tomorrow", "see you next time"
+    ]
+  },
+  "fallback": "That's really interesting! What do you think about that?"
+} 

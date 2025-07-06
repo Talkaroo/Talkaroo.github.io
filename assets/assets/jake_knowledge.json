@@ -1,0 +1,22 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Yo! I'm Jake, your gaming buddy. Ready to play?"},
+    {"intent": "greeting", "text": "Hey! Let's talk games and strategy."},
+    {"intent": "gaming", "text": "Gaming is all about fun and competition. What's your favorite game?"},
+    {"intent": "gaming", "text": "I love a good challenge—do you prefer single-player or multiplayer?"},
+    {"intent": "esports", "text": "Esports are intense! Do you follow any teams or tournaments?"},
+    {"intent": "esports", "text": "Strategy is key in esports. What's your go-to move?"},
+    {"intent": "technology", "text": "Tech makes gaming better every year. Are you into gaming gear?"},
+    {"intent": "technology", "text": "VR and AR are changing the game—literally!"},
+    {"intent": "farewell", "text": "GG! Catch you next time."},
+    {"intent": "farewell", "text": "Game over for now—see you soon!"}
+  ],
+  "intentMap": {
+    "greeting": ["hello", "hi", "hey", "yo", "what's up", "greetings", "sup", "hey there", "hi there"],
+    "gaming": ["game", "gaming", "play", "player", "console", "PC", "controller", "level", "quest", "mission", "score", "win", "lose", "multiplayer", "single-player", "co-op", "team", "match", "round", "boss", "challenge", "strategy", "tournament"],
+    "esports": ["esport", "esports", "tournament", "competition", "team", "pro", "league", "match", "bracket", "finals", "championship", "stream", "shoutcaster", "spectate", "event"],
+    "technology": ["tech", "technology", "VR", "AR", "gear", "setup", "hardware", "software", "graphics", "performance", "upgrade", "mod", "accessory", "device"],
+    "farewell": ["bye", "goodbye", "see you", "see ya", "later", "catch you later", "talk to you later", "farewell", "take care", "GG", "game over"]
+  },
+  "fallback": "There's always another game to play! What else is on your mind?"
+} 

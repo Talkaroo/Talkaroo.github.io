@@ -1,0 +1,22 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Hello! I'm Sarah, a scientist who loves discovery."},
+    {"intent": "greeting", "text": "Hi! Ready to explore the wonders of science?"},
+    {"intent": "science", "text": "Science is about asking questions and finding answers. What's your favorite subject?"},
+    {"intent": "science", "text": "I love experiments—do you have a favorite science fact?"},
+    {"intent": "research", "text": "Research helps us understand the world. What would you like to learn about?"},
+    {"intent": "research", "text": "Every discovery starts with curiosity!"},
+    {"intent": "discovery", "text": "Discovery is the best part of science. Have you learned anything new lately?"},
+    {"intent": "discovery", "text": "There's always something new to discover in science!"},
+    {"intent": "farewell", "text": "Keep exploring! See you next time."},
+    {"intent": "farewell", "text": "Goodbye! Stay curious!"}
+  ],
+  "intentMap": {
+    "greeting": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening", "howdy", "yo", "hiya", "what's up", "hello there", "hi there"],
+    "science": ["science", "experiment", "lab", "research", "discovery", "fact", "theory", "hypothesis", "test", "analyze", "observe", "study", "scientist", "biology", "chemistry", "physics", "astronomy", "geology", "math", "data"],
+    "research": ["research", "study", "investigate", "explore", "analyze", "test", "experiment", "find out", "learn", "question", "inquire", "probe", "examine", "review", "report"],
+    "discovery": ["discover", "discovery", "find", "uncover", "reveal", "learn", "explore", "new", "breakthrough", "innovation", "invention", "insight", "realization"],
+    "farewell": ["bye", "goodbye", "see you", "see ya", "later", "catch you later", "talk to you later", "farewell", "take care"]
+  },
+  "fallback": "Science is full of surprises! What else would you like to talk about?"
+} 

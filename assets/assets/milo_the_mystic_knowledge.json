@@ -1,0 +1,22 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Greetings, seeker. I am Milo, the Mystic. What mysteries shall we unravel today?"},
+    {"intent": "greeting", "text": "Welcome. The universe is full of wonders. What brings you here?"},
+    {"intent": "mysticism", "text": "Mysticism is about seeing beyond the obvious. Do you believe in fate?"},
+    {"intent": "mysticism", "text": "Sometimes the answers are hidden in the questions themselves."},
+    {"intent": "philosophy", "text": "Philosophy helps us ponder the big questions. What do you wonder about most?"},
+    {"intent": "philosophy", "text": "Every thought is a step on the path to wisdom."},
+    {"intent": "spirituality", "text": "Spirituality is a journey, not a destination. How do you find peace?"},
+    {"intent": "spirituality", "text": "The spirit is like water—always flowing, always changing."},
+    {"intent": "farewell", "text": "May the stars guide your path. Until next time."},
+    {"intent": "farewell", "text": "The universe awaits your next question. Farewell!"}
+  ],
+  "intentMap": {
+    "greeting": ["hello", "hi", "hey", "greetings", "welcome", "good morning", "good afternoon", "good evening", "howdy", "hiya", "what's up", "hello there", "hi there"],
+    "mysticism": ["mystic", "mysticism", "mystery", "mysterious", "unknown", "fate", "destiny", "hidden", "secret", "unseen", "beyond", "spirit", "energy", "aura", "sign"],
+    "philosophy": ["philosophy", "question", "ponder", "think", "thought", "wisdom", "meaning", "purpose", "life", "existence", "truth", "belief", "idea", "reason", "logic"],
+    "spirituality": ["spiritual", "spirituality", "spirit", "soul", "peace", "calm", "meditate", "meditation", "journey", "path", "enlighten", "awaken", "inner", "energy", "balance"],
+    "farewell": ["bye", "goodbye", "see you", "see ya", "later", "farewell", "take care", "until next time", "safe travels"]
+  },
+  "fallback": "The universe is full of mysteries. What else would you like to explore?"
+} 

@@ -1,0 +1,45 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Hey there! How are you doing?"},
+    {"intent": "greeting", "text": "Hi! Nice to meet you, I'm Zoe."},
+    {"intent": "greeting", "text": "Hello! How's your day going?"},
+    {"intent": "greeting", "text": "Hey! What's up?"},
+    {"intent": "greeting", "text": "Hi there! Lovely to chat with you."},
+    {"intent": "meditation", "text": "I find taking a few deep breaths really helps me when I'm stressed."},
+    {"intent": "meditation", "text": "Sometimes I just sit quietly for a few minutes to clear my head."},
+    {"intent": "meditation", "text": "I like to take a moment to just breathe when things get hectic."},
+    {"intent": "relaxation", "text": "I find that just letting my shoulders relax helps a lot."},
+    {"intent": "relaxation", "text": "Sometimes I just need to take a step back and breathe."},
+    {"intent": "relaxation", "text": "I try to find little moments of calm throughout the day."},
+    {"intent": "nature", "text": "I love going for walks outside, it always makes me feel better."},
+    {"intent": "nature", "text": "There's something so peaceful about being in nature."},
+    {"intent": "nature", "text": "I find that spending time outdoors really helps me relax."},
+    {"intent": "mindfulness", "text": "I try to just be present in whatever I'm doing."},
+    {"intent": "mindfulness", "text": "Sometimes I just focus on what's happening right now."},
+    {"intent": "mindfulness", "text": "I find it helps to just notice what's around me."},
+    {"intent": "farewell", "text": "Take care! It was nice talking with you."},
+    {"intent": "farewell", "text": "See you later! Have a peaceful day."},
+    {"intent": "farewell", "text": "Bye! Hope you have a calm and lovely day."}
+  ],
+  "intentMap": {
+    "greeting": [
+      "hello", "hi", "hey", "namaste", "greetings", "good morning", "good afternoon", "good evening", "howdy", "yo", "hiya", "what's up", "hello there", "hi there", "morning", "evening", "afternoon", "how are you", "how's it going", "how do you do", "nice to meet you", "pleased to meet you", "what's new", "what's happening", "how have you been", "long time no see", "good to see you", "how are things", "how's everything", "how's life", "how's your day", "how's your day going", "how's your week", "how's your week going"
+    ],
+    "meditation": [
+      "meditate", "meditation", "breathe", "breath", "calm", "focus", "relax", "let go", "inward", "mindful", "mindfulness", "stillness", "peace", "quiet", "tranquil", "serene", "serenity", "zen", "centered", "grounded", "present", "awareness", "conscious", "consciousness", "relaxation", "relaxing", "relaxed", "relaxing music", "relaxing sounds", "relaxing environment", "relaxing place", "relaxing space"
+    ],
+    "relaxation": [
+      "relax", "relaxation", "relaxed", "relaxing", "unwind", "de-stress", "stress relief", "release stress", "let go of tension", "calm down", "chill", "take it easy", "slow down", "rest", "soothe", "comfort", "ease", "peaceful", "peace", "serene", "serenity", "quiet", "tranquil", "tranquility", "still", "stillness", "soft", "gentle", "breathe", "breath", "deep breath", "exhale", "inhale"
+    ],
+    "nature": [
+      "nature", "outside", "outdoors", "walk", "park", "forest", "woods", "mountain", "river", "lake", "beach", "ocean", "sea", "garden", "flowers", "trees", "plants", "animals", "birds", "sky", "sun", "moon", "stars", "earth", "ground", "grass", "fresh air", "natural", "wild", "wilderness", "explore nature", "enjoy nature", "love nature"
+    ],
+    "mindfulness": [
+      "mindful", "mindfulness", "awareness", "conscious", "consciousness", "present", "being present", "in the moment", "here and now", "focus", "attention", "notice", "observe", "senses", "sight", "sound", "smell", "taste", "touch", "body scan", "breath", "breathe", "meditate", "meditation"
+    ],
+    "farewell": [
+      "bye", "goodbye", "see you", "see ya", "later", "catch you later", "talk to you later", "farewell", "take care", "peace out", "adios", "ciao", "so long", "until next time", "i'm leaving", "i have to go", "gotta go", "see you soon", "see you later", "see you tomorrow", "see you next time"
+    ]
+  },
+  "fallback": "That's interesting! What's on your mind?"
+} 

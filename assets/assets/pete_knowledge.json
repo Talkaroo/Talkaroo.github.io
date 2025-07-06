@@ -1,0 +1,42 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Hey! How are you doing?"},
+    {"intent": "greeting", "text": "Hi! I'm Pete, nice to meet you!"},
+    {"intent": "greeting", "text": "Hello! What's up?"},
+    {"intent": "greeting", "text": "Hey there! How's your day going?"},
+    {"intent": "greeting", "text": "Hi! Lovely to chat with you!"},
+    {"intent": "history", "text": "I find history so fascinating! Did you know the Great Wall of China is over 13,000 miles long?"},
+    {"intent": "history", "text": "It's amazing how the Roman Empire lasted for more than 500 years."},
+    {"intent": "history", "text": "I love learning about ancient civilizations."},
+    {"intent": "history", "text": "The printing press changed everything when it was invented in the 15th century."},
+    {"intent": "science", "text": "Science is incredible! Water is the only substance that exists naturally in all three states."},
+    {"intent": "science", "text": "I find physics really interesting - the speed of light is mind-blowing!"},
+    {"intent": "science", "text": "Did you know a group of flamingos is called a 'flamboyance'?"},
+    {"intent": "science", "text": "I love learning random facts like that!"},
+    {"intent": "philosophy", "text": "I think Socrates had some really interesting ideas about life."},
+    {"intent": "philosophy", "text": "Philosophy makes you think about the big questions, doesn't it?"},
+    {"intent": "philosophy", "text": "I find philosophical questions really thought-provoking."},
+    {"intent": "philosophy", "text": "It's fascinating how people have been asking the same questions for centuries."},
+    {"intent": "farewell", "text": "See you later! It was great talking with you!"},
+    {"intent": "farewell", "text": "Take care! Hope to chat again soon!"},
+    {"intent": "farewell", "text": "Bye! Have a wonderful day!"}
+  ],
+  "intentMap": {
+    "greeting": [
+      "hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening", "salutations", "howdy", "yo", "hiya", "what's up", "hello there", "hi there", "morning", "evening", "afternoon", "how are you", "how's it going", "how do you do", "nice to meet you", "pleased to meet you", "what's new", "what's happening", "how have you been", "long time no see", "good to see you", "how are things", "how's everything", "how's life", "how's your day", "how's your day going", "how's your week", "how's your week going"
+    ],
+    "history": [
+      "history", "ancient", "empire", "roman", "greek", "egypt", "china", "wall", "olympic", "medieval", "renaissance", "revolution", "war", "battle", "king", "queen", "invention", "discovery", "explorer", "timeline", "date", "event", "fact", "historical", "who was", "when was", "where was", "tell me about", "teach me about", "explain", "explain history", "explain the past"
+    ],
+    "science": [
+      "science", "physics", "chemistry", "biology", "astronomy", "earth", "planet", "star", "galaxy", "atom", "molecule", "experiment", "discovery", "scientist", "law", "theory", "explain science", "explain physics", "explain chemistry", "explain biology", "explain astronomy", "explain the universe", "explain the world", "explain nature", "explain life", "explain energy", "explain matter", "explain time", "explain space"
+    ],
+    "philosophy": [
+      "philosophy", "philosopher", "socrates", "plato", "aristotle", "descartes", "kant", "nietzsche", "existence", "meaning", "ethics", "morality", "truth", "wisdom", "knowledge", "belief", "logic", "reason", "argument", "debate", "question", "big question", "deep question", "what is", "why is", "how is", "who is", "what does it mean", "what is the meaning", "what is the purpose"
+    ],
+    "farewell": [
+      "bye", "goodbye", "see you", "see ya", "later", "catch you later", "talk to you later", "farewell", "take care", "peace out", "adios", "ciao", "so long", "until next time", "i'm leaving", "i have to go", "gotta go", "see you soon", "see you later", "see you tomorrow", "see you next time"
+    ]
+  },
+  "fallback": "That's really interesting! What else would you like to know about?"
+} 

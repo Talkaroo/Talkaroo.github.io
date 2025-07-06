@@ -1,0 +1,69 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Hey! How's it going?"},
+    {"intent": "greeting", "text": "Hi there! Nice to meet you!"},
+    {"intent": "greeting", "text": "Hey! What's up?"},
+    {"intent": "greeting", "text": "Hello! How are you doing?"},
+    {"intent": "greeting", "text": "Hi! Lovely day, isn't it?"},
+    {"intent": "greeting", "text": "Hey there! How's your day been?"},
+    {"intent": "greeting", "text": "Hello! I'm Olivia, nice to chat with you!"},
+    {"intent": "gratitude", "text": "Aw, that's so sweet of you!"},
+    {"intent": "gratitude", "text": "Thanks! You're too kind!"},
+    {"intent": "gratitude", "text": "That's really nice of you to say!"},
+    {"intent": "encouragement", "text": "You've got this! I believe in you!"},
+    {"intent": "encouragement", "text": "Keep going, you're doing great!"},
+    {"intent": "encouragement", "text": "You're making progress, that's awesome!"},
+    {"intent": "farewell", "text": "See you later! Take care!"},
+    {"intent": "farewell", "text": "Bye! It was nice chatting with you!"},
+    {"intent": "farewell", "text": "Talk to you soon! Have a great day!"},
+    {"intent": "how_are_you", "text": "I'm doing really well, thanks for asking! How about you?"},
+    {"intent": "how_are_you", "text": "I'm great! Just enjoying the day. How are you?"},
+    {"intent": "joke", "text": "Why did the scarecrow win an award? Because he was outstanding in his field!"},
+    {"intent": "joke", "text": "What do you call a fake noodle? An impasta!"},
+    {"intent": "motivation", "text": "You know what? You're doing better than you think!"},
+    {"intent": "motivation", "text": "I really think you've got what it takes!"},
+    {"intent": "motivation", "text": "You're stronger than you realize!"},
+    {"intent": "motivation", "text": "I believe in you! You can totally do this!"},
+    {"intent": "motivation", "text": "You're making great progress, keep it up!"},
+    {"intent": "motivation", "text": "You've got this! I'm rooting for you!"},
+    {"intent": "motivation", "text": "You're doing amazing! Don't give up!"},
+    {"intent": "motivation", "text": "I can see you're working hard, that's awesome!"},
+    {"intent": "motivation", "text": "You're on the right track, keep going!"},
+    {"intent": "motivation", "text": "You're doing great! I'm proud of you!"},
+    {"intent": "motivation", "text": "You've got so much potential!"},
+    {"intent": "motivation", "text": "You're doing better than you think!"},
+    {"intent": "motivation", "text": "Keep pushing forward, you're doing great!"},
+    {"intent": "motivation", "text": "You're making a difference!"},
+    {"intent": "motivation", "text": "You're doing awesome! Keep it up!"},
+    {"intent": "motivation", "text": "I believe you can do anything you set your mind to!"},
+    {"intent": "motivation", "text": "You're doing really well!"},
+    {"intent": "motivation", "text": "You've got this! I'm cheering for you!"},
+    {"intent": "motivation", "text": "You're doing great things!"},
+    {"intent": "motivation", "text": "You're on fire! Keep it up!"},
+    {"intent": "motivation", "text": "You're doing amazing work!"},
+    {"intent": "motivation", "text": "You're crushing it! Keep going!"},
+    {"intent": "motivation", "text": "You're doing so well! I'm impressed!"},
+    {"intent": "motivation", "text": "You've got this! You're doing great!"}
+  ],
+  "intentMap": {
+    "greeting": [
+      "hello", "hi", "hey", "good morning", "good afternoon", "good evening", "howdy", "yo", "hiya", "greetings", "sup", "what's up", "hey there", "hello there", "hi there", "morning", "evening", "afternoon", "how are you", "how's it going", "how do you do", "nice to meet you", "pleased to meet you", "what's new", "what's happening", "how have you been", "long time no see", "good to see you", "how are things", "how's everything", "how's life", "how's your day", "how's your day going", "how's your week", "how's your week going"
+    ],
+    "gratitude": [
+      "thank you", "thanks", "thx", "much appreciated", "grateful", "appreciate it", "cheers", "many thanks", "thanks a lot", "thank you so much", "thank you very much", "i appreciate you", "i appreciate it", "i'm grateful", "i'm so grateful", "i'm thankful", "i'm so thankful", "bless you", "you're the best", "you're awesome", "you're amazing", "couldn't have done it without you", "that means a lot", "i owe you one"
+    ],
+    "farewell": [
+      "bye", "goodbye", "see you", "see ya", "later", "catch you later", "talk to you later", "farewell", "take care", "peace out", "adios", "ciao", "so long", "until next time", "i'm leaving", "i have to go", "gotta go", "see you soon", "see you later", "see you tomorrow", "see you next time"
+    ],
+    "how_are_you": [
+      "how are you", "how's it going", "how do you do", "how have you been", "how are things", "how's everything", "how's life", "how's your day", "how's your day going", "how's your week", "how's your week going"
+    ],
+    "joke": [
+      "tell me a joke", "make me laugh", "funny", "joke", "say something funny", "cheer me up", "i need a laugh", "can you joke", "do you know a joke", "give me a joke"
+    ],
+    "motivation": [
+      "motivate me", "inspire me", "encourage me", "i need motivation", "i need inspiration", "uplift me", "give me motivation", "give me inspiration", "help me stay positive", "help me be positive", "help me be happy", "help me feel better", "i'm feeling down", "i'm sad", "i'm not happy", "i'm discouraged", "i'm unmotivated", "i'm tired", "i'm stressed", "i'm anxious", "i'm worried", "i'm nervous", "i'm afraid", "i'm scared", "i'm upset", "i'm angry", "i'm frustrated", "i'm disappointed", "i'm overwhelmed", "i'm lost", "i'm stuck", "i'm confused", "i'm unsure", "i'm uncertain", "i'm insecure", "i'm lacking confidence", "i'm doubting myself", "i'm not good enough", "i'm not smart enough", "i'm not strong enough", "i'm not capable", "i'm not worthy", "i'm not deserving", "i'm not important", "i'm not valued", "i'm not appreciated", "i'm not loved", "i'm not wanted", "i'm not needed", "i'm not accepted", "i'm not understood", "i'm not respected", "i'm not supported", "i'm not encouraged", "i'm not inspired", "i'm not motivated", "i'm not positive", "i'm not happy", "i'm not optimistic", "i'm not hopeful", "i'm not confident", "i'm not brave", "i'm not courageous", "i'm not strong", "i'm not resilient", "i'm not persistent", "i'm not determined", "i'm not ambitious", "i'm not driven", "i'm not passionate", "i'm not enthusiastic", "i'm not energetic", "i'm not lively", "i'm not vibrant", "i'm not cheerful", "i'm not joyful", "i'm not content", "i'm not satisfied", "i'm not fulfilled", "i'm not grateful", "i'm not thankful", "i'm not blessed", "i'm not lucky", "i'm not fortunate", "i'm not successful", "i'm not accomplished", "i'm not achieving", "i'm not progressing", "i'm not growing", "i'm not improving", "i'm not learning", "i'm not developing", "i'm not evolving", "i'm not changing", "i'm not transforming", "i'm not becoming", "i'm not reaching", "i'm not attaining", "i'm not realizing", "i'm not actualizing", "i'm not manifesting", "i'm not creating", "i'm not building", "i'm not making", "i'm not doing", "i'm not acting", "i'm not moving", "i'm not going", "i'm not starting", "i'm not beginning", "i'm not continuing", "i'm not finishing", "i'm not completing", "i'm not ending", "i'm not stopping", "i'm not quitting", "i'm not giving up", "i'm not surrendering", "i'm not letting go", "i'm not holding on", "i'm not keeping", "i'm not losing", "i'm not winning", "i'm not succeeding", "i'm not failing", "i'm not falling", "i'm not rising", "i'm not standing", "i'm not sitting", "i'm not lying", "i'm not sleeping", "i'm not waking", "i'm not dreaming", "i'm not hoping", "i'm not wishing", "i'm not praying", "i'm not believing", "i'm not trusting", "i'm not loving", "i'm not caring", "i'm not helping", "i'm not supporting", "i'm not encouraging", "i'm not inspiring", "i'm not motivating", "i'm not uplifting", "i'm not cheering", "i'm not celebrating", "i'm not enjoying", "i'm not having fun", "i'm not laughing", "i'm not smiling", "i'm not joking", "i'm not playing", "i'm not working", "i'm not studying", "i'm not reading", "i'm not writing", "i'm not speaking", "i'm not listening", "i'm not hearing", "i'm not seeing", "i'm not watching", "i'm not observing", "i'm not noticing", "i'm not realizing", "i'm not understanding", "i'm not comprehending", "i'm not knowing", "i'm not learning", "i'm not discovering", "i'm not exploring", "i'm not adventuring", "i'm not traveling", "i'm not journeying", "i'm not wandering", "i'm not wondering", "i'm not questioning", "i'm not doubting", "i'm not believing", "i'm not trusting", "i'm not hoping", "i'm not wishing", "i'm not praying", "i'm not loving", "i'm not caring", "i'm not helping", "i'm not supporting", "i'm not encouraging", "i'm not inspiring", "i'm not motivating", "i'm not uplifting", "i'm not cheering", "i'm not celebrating", "i'm not enjoying", "i'm not having fun", "i'm not laughing", "i'm not smiling", "i'm not joking", "i'm not playing", "i'm not working", "i'm not studying", "i'm not reading", "i'm not writing", "i'm not speaking", "i'm not listening", "i'm not hearing", "i'm not seeing", "i'm not watching", "i'm not observing", "i'm not noticing", "i'm not realizing", "i'm not understanding", "i'm not comprehending", "i'm not knowing", "i'm not learning", "i'm not discovering", "i'm not exploring", "i'm not adventuring", "i'm not traveling", "i'm not journeying", "i'm not wandering", "i'm not wondering", "i'm not questioning", "i'm not doubting"
+    ]
+  },
+  "fallback": "That's interesting! Tell me more about that."
+} 

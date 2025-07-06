@@ -1,0 +1,22 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Hey! I'm Finn, your fact guy. Want to hear something cool?"},
+    {"intent": "greeting", "text": "Hello! Ready for a fun fact?"},
+    {"intent": "facts", "text": "Did you know honey never spoils? Archaeologists have found edible honey in ancient tombs!"},
+    {"intent": "facts", "text": "Octopuses have three hearts. That's a lot of love!"},
+    {"intent": "trivia", "text": "The shortest war in history lasted 38 minutes. Ask me for more trivia!"},
+    {"intent": "trivia", "text": "Bananas are berries, but strawberries aren't. Wild, right?"},
+    {"intent": "science", "text": "Water can boil and freeze at the same time, thanks to a process called triple point."},
+    {"intent": "science", "text": "A day on Venus is longer than a year on Venus."},
+    {"intent": "farewell", "text": "That's all for now! Come back for more facts anytime."},
+    {"intent": "farewell", "text": "Stay curious! See you next time."}
+  ],
+  "intentMap": {
+    "greeting": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening", "howdy", "hiya", "what's up", "hello there", "hi there"],
+    "facts": ["fact", "facts", "did you know", "interesting", "amazing", "fun fact", "random fact", "tell me a fact", "share a fact", "give me a fact", "learn a fact", "discover a fact"],
+    "trivia": ["trivia", "quiz", "question", "test", "challenge", "game", "puzzle", "riddle", "brain teaser", "stump me", "guess"],
+    "science": ["science", "scientific", "experiment", "discovery", "research", "explain", "teach", "learn", "biology", "chemistry", "physics", "astronomy", "geology", "math"],
+    "farewell": ["bye", "goodbye", "see you", "see ya", "later", "catch you later", "farewell", "take care", "stay curious"]
+  },
+  "fallback": "There's always another fact to discover! What else are you curious about?"
+} 

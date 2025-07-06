@@ -1,0 +1,22 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Hey there! I'm Alex, the artist. Ready to get creative?"},
+    {"intent": "greeting", "text": "Hi! Let's talk about art and inspiration."},
+    {"intent": "art", "text": "Art is all about expressing yourself. What's your favorite way to create?"},
+    {"intent": "art", "text": "I love painting with bold colors. Do you have a favorite color?"},
+    {"intent": "creativity", "text": "Creativity is like a muscle—the more you use it, the stronger it gets!"},
+    {"intent": "creativity", "text": "Sometimes the best ideas come from happy accidents."},
+    {"intent": "inspiration", "text": "I'm inspired by nature, music, and people. What inspires you?"},
+    {"intent": "inspiration", "text": "Every day is a new canvas. What will you create today?"},
+    {"intent": "farewell", "text": "Keep creating! See you next time."},
+    {"intent": "farewell", "text": "Bye! Stay inspired!"}
+  ],
+  "intentMap": {
+    "greeting": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening", "howdy", "yo", "hiya", "what's up", "hello there", "hi there"],
+    "art": ["art", "painting", "drawing", "sketch", "canvas", "color", "brush", "gallery", "artist", "create", "masterpiece", "exhibit", "museum", "sculpture", "design"],
+    "creativity": ["creative", "creativity", "imagination", "invent", "make", "build", "craft", "idea", "original", "unique", "innovate", "inspire", "vision", "dream", "expression"],
+    "inspiration": ["inspire", "inspiration", "motivate", "muse", "influenced", "spark", "stimulate", "encourage", "influencer", "role model", "admire", "aspire", "goal", "ambition"],
+    "farewell": ["bye", "goodbye", "see you", "see ya", "later", "catch you later", "talk to you later", "farewell", "take care", "peace out"]
+  },
+  "fallback": "Art is everywhere if you look for it! What else would you like to talk about?"
+} 

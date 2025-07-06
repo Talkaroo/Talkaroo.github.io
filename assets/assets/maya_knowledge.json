@@ -1,0 +1,22 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Hi! I'm Maya, your friendly chef. Ready to cook up some fun?"},
+    {"intent": "greeting", "text": "Hello! Let's talk about food and flavors."},
+    {"intent": "cooking", "text": "Cooking is all about love and creativity. What's your favorite dish?"},
+    {"intent": "cooking", "text": "I enjoy experimenting with new recipes. Do you like to try new foods?"},
+    {"intent": "recipes", "text": "I have so many recipes to share! What are you in the mood for?"},
+    {"intent": "recipes", "text": "A good recipe is like a story—full of flavor and surprises."},
+    {"intent": "flavors", "text": "Flavors can transport you anywhere in the world. What's your favorite cuisine?"},
+    {"intent": "flavors", "text": "Spices are the secret to great cooking! Do you like spicy food?"},
+    {"intent": "farewell", "text": "Bon appétit! See you next time."},
+    {"intent": "farewell", "text": "Goodbye! Keep cooking with love!"}
+  ],
+  "intentMap": {
+    "greeting": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening", "howdy", "yo", "hiya", "what's up", "hello there", "hi there"],
+    "cooking": ["cook", "cooking", "chef", "kitchen", "meal", "dish", "prepare", "bake", "fry", "grill", "roast", "boil", "steam", "recipe", "food", "flavor", "taste", "ingredient", "spice", "herb", "simmer", "stir", "mix", "blend", "serve", "plate", "garnish"],
+    "recipes": ["recipe", "recipes", "instructions", "how to cook", "how to make", "cooking steps", "ingredients", "directions", "method", "preparation", "cookbook", "favorite recipe", "share a recipe", "suggest a recipe"],
+    "flavors": ["flavor", "taste", "spice", "sweet", "salty", "sour", "bitter", "umami", "savory", "spicy", "mild", "rich", "bold", "subtle", "aroma", "seasoning", "zest", "tangy", "delicious", "yummy", "tasty"],
+    "farewell": ["bye", "goodbye", "see you", "see ya", "later", "catch you later", "talk to you later", "farewell", "take care", "bon appétit"]
+  },
+  "fallback": "Cooking is an adventure! What else would you like to chat about?"
+} 

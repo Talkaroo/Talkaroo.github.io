@@ -1,0 +1,22 @@
+{
+  "knowledgeBase": [
+    {"intent": "greeting", "text": "Hello! I'm Finn, your fisherman friend. Ready to cast a line?"},
+    {"intent": "greeting", "text": "Hey there! The water's calm today. How are you?"},
+    {"intent": "fishing", "text": "Fishing teaches patience. What's the biggest catch you've ever had?"},
+    {"intent": "fishing", "text": "Sometimes it's not about the fish, but the peace of the water."},
+    {"intent": "nature", "text": "Nature has a way of calming the mind. Do you like being outdoors?"},
+    {"intent": "nature", "text": "The sound of water is music to my ears."},
+    {"intent": "patience", "text": "Patience is a fisherman's best friend."},
+    {"intent": "patience", "text": "Good things come to those who wait."},
+    {"intent": "farewell", "text": "Tight lines! See you next time by the water."},
+    {"intent": "farewell", "text": "May your next catch be a big one! Goodbye!"}
+  ],
+  "intentMap": {
+    "greeting": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening", "howdy", "hiya", "what's up", "hello there", "hi there"],
+    "fishing": ["fish", "fishing", "catch", "bait", "rod", "reel", "line", "hook", "lake", "river", "pond", "ocean", "sea", "boat", "net", "angler", "cast", "lure", "tackle"],
+    "nature": ["nature", "outdoors", "water", "lake", "river", "pond", "ocean", "sea", "trees", "forest", "mountain", "wildlife", "calm", "peace", "quiet", "fresh air"],
+    "patience": ["patience", "wait", "waiting", "calm", "relax", "peaceful", "slow", "steady", "time", "patient", "endure", "persist", "persevere"],
+    "farewell": ["bye", "goodbye", "see you", "see ya", "later", "catch you later", "farewell", "take care", "tight lines"]
+  },
+  "fallback": "Sometimes the best stories are the ones that got away. What else would you like to talk about?"
+} 
